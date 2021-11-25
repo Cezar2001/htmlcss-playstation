@@ -43,6 +43,8 @@ ul > li{
 
 .jumbo-bg{
     background: url("../img/jumbo-bg.png");
+    background-position: center;
+    background-size: contain no-repeat;
     height: 650px;
 }
 
@@ -54,7 +56,7 @@ ul > li{
 .returnal-logo{
     width: 200px;
     height: 50px;
-    margin: 200px 0 0 30px;
+    margin: 250px 0 0 30px;
 }
 
 .red{
@@ -66,3 +68,12 @@ ul > li{
 .jumbo > button{
     margin: 30px;
 }
+
+.small-photo{
+    width: 180px;
+    height: 90px;
+    border-radius: 20px;
+}
+
+/*---------------- fine jumbo ----------------*/
+/*------------------- consol --------------------*/
