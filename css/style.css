@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*---------- navnar --------*/
+
+.pre-nav{
+    background-color: black;
+    height: 50px;
+}
+
+.sony{
+    color: white;
+    padding: 3px;
+    font-size: 30px;
+    margin: 0;
+}
+
+ul > li{
+    padding: 0 15px;
+}
+
+.button{
+    border-radius: 20px;
+}
+
+.grey{
+    background-color: #333;
+}
+
+.search{
+    margin-left: 20px; 
+}
+
+.search > img{
+    width: 40px;
+    height: 40px;
+    padding: 0 5px;
+}
+
+/*-------------- jumbo -------------*/
+
+.jumbo-bg{
+    height: 1500px;
+}
+
+.jumbo{
+    width: 30%;
+    color: white;
+    top: 100px;
+}
+.returnal-logo{
+    width: 200px;
+    height: 50px;
+    margin-left: 30px;
+}
+
+.red{
+    background-color: red;
+}
+
+.jumbo > h1,
+.jumbo > p,
+.jumbo > button{
+    margin: 30px;
+}
