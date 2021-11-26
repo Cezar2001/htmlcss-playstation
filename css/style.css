@@ -4,6 +4,11 @@ body{
 
 /*---------- navnar --------*/
 
+.nav-fixed{
+    position: fixed;
+    width: 100%;
+}
+
 .pre-nav{
     background-color: black;
     height: 50px;
@@ -38,42 +43,145 @@ ul > li{
     padding: 0 5px;
 }
 
-/*-------------- jumbo -------------*/
+.nav-hide{
+    height: 120px;
+}
+
+/*-------------- jumbo returnal -------------*/
 
 
-.jumbo-bg{
+.jumbo-bg-returnal{
     background: url("../img/jumbo-bg.png");
     background-position: center;
     background-size: contain no-repeat;
     height: 650px;
 }
 
-.jumbo{
+.jumbo-returnal,
+.jumbo-adventure{
     width: 400px;
     height: 500px;
     color: white;
 }
+
 .returnal-logo{
     width: 200px;
     height: 50px;
-    margin: 250px 0 0 30px;
+    margin: 250px 0 0 50px;
 }
 
 .red{
     background-color: red;
 }
 
-.jumbo > h1,
-.jumbo > p,
-.jumbo > button{
-    margin: 30px;
+.jumbo-returnal > h1,
+.jumbo-returnal > p,
+.jumbo-returnal > button{
+    margin: 30px 0 30px 50px;
+
 }
 
-.small-photo{
-    width: 180px;
-    height: 90px;
+.small-photo-jumbo{
+    width: 170px;
     border-radius: 20px;
 }
 
-/*---------------- fine jumbo ----------------*/
-/*------------------- consol --------------------*/
+/*---------------- end jumbo returnal ----------------*/
+/*------------------- console --------------------*/
+
+.cyan-text{
+    color: rgb(0, 162, 255);
+}
+
+.console{
+    width: 500px;
+}
+
+.console-border{
+    border-bottom: 3px rgb(0, 162, 255) solid;
+}
+
+.small-photo-console,
+.small-photo-social{
+    width: 150px;
+}
+
+/*-------------------- end console ---------------------*/
+/*--------------------- jumbo adventure ----------------------*/
+.jumbo-bg-adventure{
+    background: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-position: center;
+    background-size: contain no-repeat;
+    height: 750px;
+}
+
+.adventure-logo{
+    width: 250px;
+    margin: 150px 0 0 20px;
+}
+
+.jumbo-adventure > h1,
+.jumbo-adventure > p,
+.jumbo-adventure > button{
+    margin: 20px 0 20px 50px;
+}
+
+.small-photo-adventure{
+    width: 200px;
+}
+
+.text-white{
+    color: white;
+}
+
+/*------------------ end jumbo adventure ----------------*/
+/*-------------------- playstation 4 ----------------------*/
+
+.trademark-size{
+    font-size: 20px;
+    display: inline-block;
+}
+
+.text-grey{
+    color: #666;
+}
+
+.small-photo-ps4,
+.small-photo-ps-plus{
+    width: 350px;
+}
+
+/*-------------------- end playstation 4 ----------------*/
+/*------------------------ play plus -----------------------*/
+
+.light-grey{
+    background-color: rgb(190, 190, 190);
+}
+
+.button-light-grey{
+    background-color: rgb(197, 197, 197);
+}
+
+/*---------------------- end play plus ----------------------*/
+/*-------------------- sale -----------------------*/
+
+.small-photo-sale{
+    width: 300px;
+}
+
+/*------------------------ end sale ----------------------*/
+/*-------------------------- play now ---------------------------*/
+
+.blue{
+    background-color: rgb(0,0,50);
+}
+
+.white{
+    background-color: white;
+}
+
+/*---------------------- end play now --------------------*/
+/*----------------------- social --------------------*/
+/*----------------------- end social ---------------------*/
+
+/*------------------------ footer ---------------------*/
