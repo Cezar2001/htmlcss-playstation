@@ -4,6 +4,12 @@ body{
 
 /*---------- navnar --------*/
 
+.fa-chevron-down{
+    font-size: 15px;
+    color: #999;
+    padding-left: 5px;
+}
+
 .nav-fixed{
     position: fixed;
     width: 100%;
@@ -49,7 +55,6 @@ ul > li{
 
 /*-------------- jumbo returnal -------------*/
 
-
 .jumbo-bg-returnal{
     background: url("../img/jumbo-bg.png");
     background-position: center;
@@ -81,9 +86,22 @@ ul > li{
 
 }
 
+.small-photo-jumbo:hover{
+    transform: translate( 0, -10%);
+}
+
 .small-photo-jumbo{
-    width: 170px;
+    width: 100%;
     border-radius: 20px;
+}
+
+.jumbo-returnal-border{
+    border: 3px rgb(0, 162, 255) solid;
+
+}
+
+.jumbo-border-space{
+    padding: 3px;
 }
 
 /*---------------- end jumbo returnal ----------------*/
@@ -99,11 +117,21 @@ ul > li{
 
 .console-border{
     border-bottom: 3px rgb(0, 162, 255) solid;
+    padding: 1px;
+}
+
+.opacity{
+    opacity: 0.5;
+}
+
+.opacity:hover{
+    opacity: 1;
 }
 
 .small-photo-console,
-.small-photo-social{
-    width: 150px;
+.small-photo-social,
+.small-photo-sale{
+    width: 60%;
 }
 
 /*-------------------- end console ---------------------*/
@@ -127,7 +155,7 @@ ul > li{
 }
 
 .small-photo-adventure{
-    width: 200px;
+    width: 100%;
 }
 
 .text-white{
@@ -165,9 +193,6 @@ ul > li{
 /*---------------------- end play plus ----------------------*/
 /*-------------------- sale -----------------------*/
 
-.small-photo-sale{
-    width: 300px;
-}
 
 /*------------------------ end sale ----------------------*/
 /*-------------------------- play now ---------------------------*/
@@ -182,15 +207,47 @@ ul > li{
 
 /*---------------------- end play now --------------------*/
 /*----------------------- social --------------------*/
-/*----------------------- end social ---------------------*/
 
+
+/*----------------------- end social ---------------------*/
 /*------------------------ footer ---------------------*/
 
 footer{
-    background-color: blue;
+    background-color: rgb(31, 31, 161);
     color: white;
 }
 
 .logo-play-white{
-    
+    margin-top: 100px;
 }
+
+.logo-play-white > img{
+    width: 100px;
+}
+
+.lista-footer{
+    width: 100%;
+}
+
+.lista-footer > ul{
+    list-style: none;
+    display: inline-block;
+    line-height: 2;
+}
+
+.sony-footer{
+    margin-top: 80px;
+}
+
+.sony-footer > img{
+    width: 150px;
+}
+
+.testo-footer{
+    width: 620px;
+}
+
+.testo-sottolineato{
+    text-decoration: underline;
+}
+
