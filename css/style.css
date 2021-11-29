@@ -167,7 +167,12 @@ ul > li{
     margin: 20px 0 20px 50px;
 }
 
-.small-photo-adventure{
+.grey{
+    background: #333;
+}
+
+.small-photo-adventure,
+.small-photo-ps4{
     width: 100%;
 }
 
@@ -187,7 +192,6 @@ ul > li{
     color: #666;
 }
 
-.small-photo-ps4,
 .small-photo-ps-plus{
     width: 350px;
 }
@@ -200,7 +204,8 @@ ul > li{
 }
 
 .button-light-grey{
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(235, 235, 235);
+    border: 0;
 }
 
 .button-light-grey:hover{
